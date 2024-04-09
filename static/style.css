@@ -1,0 +1,428 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(109deg, #d2c1fd 20.29%, #c8e4f0 96.58%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 700px;
+  height: 400px;
+  padding: 2px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 36.238px;
+
+  box-shadow: 30px 30px 60px 0px rgba(0, 0, 0, 0.25),
+    -30px -30px 60px 0px #efe8ff;
+}
+
+.firstHalf {
+  background: linear-gradient(
+    1160deg,
+    rgb(214, 226, 231) 31.12%,
+    rgba(255, 255, 255, 0) 82.91%
+  );
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 440px;
+  margin-top: -22px;
+}
+
+h1 {
+  color: #f7ebeb;
+  text-align: center;
+  margin-top: 50%;
+  font-size: 40px;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #a2b0be;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 26px;
+  font-size: 20px;
+}
+h2 {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  color: #313233;
+}
+
+button:hover {
+  background-color: #4ea1c5;
+}
+.secondHalf {
+  background: linear-gradient(109deg, #967add 20.29%, #4db8e6 96.58%);
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 440px;
+  margin-top: -22px;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin-top: 90px;
+  color: #46484b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1276a1;
+}
+
+
+
+/* Add this CSS to your existing style file or in a <style> tag in your HTML */
+
+/* Flash message styling */
+.flash {
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Success message */
+.flash-success {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Error message */
+.flash-error {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Info message */
+.flash-info {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Warning message */
+.flash-warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+.card{
+  word-wrap:break-word;
+  background-color:#fff;
+  background-clip:border-box;
+  border:1px solid rgba(51,51,51,0.125);
+  border-radius:.25rem;padding:16px
+}
+.card-shadow{
+  border:none;
+  -webkit-box-shadow:0 3px 9px 1px rgba(61,99,120,0.16);
+  box-shadow:0 3px 9px 1px rgba(61,99,120,0.16);
+  -webkit-transition:-webkit-box-shadow 0.4s ease;
+  transition:box-shadow 0.4s ease, -webkit-box-shadow 0.4s ease
+}
+h5{
+  margin-top:0;
+  margin-bottom:.5rem
+}
+
+.mb-4{margin-bottom:1.5rem !important}
+.container-fluid{
+  position: absolute;
+  right: 0%;
+  top: 1.5rem;
+  width:73%;
+  padding-right:10px;
+  padding-top:10px;
+  /* padding-left:30px; */
+  margin-right:auto;
+  margin-left:auto;
+  background-color: #fff;
+}
+.btn {
+  position: absolute;
+  /* width: 10rem;
+  height: 2.5rem; */
+  top: 0%;
+  right: 0%;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  border-radius: 0.5vw;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+background-color: RoyalBlue;
+}
+
+.wordCloud{
+  /* position:relative;
+  width:100%;
+  height:100%; */
+  border:1px solid #050505;
+  /* background-color: #fff; */
+}
+
+/* For all Forms*/
+.scroll_window {
+  position: absolute;
+  /* top: 16.5%; */
+  width: 25%;
+  height: 77%; 
+  overflow-y: auto;
+}
+
+
+
+.upload-container, .form-container, .container-node, .container-edge {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.upload form,
+.form-container form, .container-node form, .container-edge form {
+  padding: 10px;
+  border: 1px solid #060606;
+  border-radius: 5px;
+  border:none;
+  background-color: #fff;
+  -webkit-box-shadow:0 3px 6px 1px rgba(61,99,120,0.16);
+  box-shadow:0 3px 6px 9px 1px rgba(61,99,120,0.16);
+  -webkit-transition:-webkit-box-shadow 0.4s ease;
+  transition:box-shadow 0.4s ease, -webkit-box-shadow 0.4s ease
+}
+
+/* For upload Form*/
+.upload input[type="file"] {
+  margin-bottom: 10px;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+/* Style the submit button */
+.upload input[type="submit"] {
+  position: relative;
+  /* top: 0.5vw;
+  left: 2.5vw; */
+  left: 30%;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  font-size: 1rem;
+}
+
+
+/* For form-container Form*/
+
+/* Style the visualization options */
+.visualization-options {
+  flex: 0 0 33%;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  /* font-size: 1rem; */
+}
+
+/* Style the labels */
+.visualization-options label {
+  margin: 0; 
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+.file-options, .visualization-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.file-option {
+  flex: 0 0 33%; /* Each option takes up 30% of container width */
+  margin-bottom: 0.5vw;
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  /* font-size: 1vw; */
+}
+
+.file-option input[type="radio"], .visualization-option input[type="radio"] {
+  margin-right: 0.1vw;
+  margin-bottom: 0.05vw;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.file-option label{
+  margin: 0; /* Remove default margin */
+  font-size: 1rem;
+}
+.submit-button-container {
+  text-align: center;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/* For container-node & container-edge Form*/
+
+/* Styling for the submit buttons */
+.container-node button[type="submit"],
+.container-edge button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-top: 10px; 
+}
+
+.submit-button:hover,
+.container-node button[type="submit"]:hover,
+.container-edge button[type="submit"]:hover {
+  background-color: #2a602c;
+}
+
+.add-button-container {
+  text-align: center;
+}
+
+/* Style for add buttons */
+#add-color-field,
+#add-edge-field {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#add-color-field:hover,
+#add-edge-field:hover {
+  background-color: #0056b3;
+}
+
+.color-field-wrapper, .edge-field-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.node-dropdown,
+.edge-from-dropdown, .edge-to-dropdown{
+  /* padding: 8px 16px; */
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem; 
+}
+
+.color-picker,
+.edge-color-picker {
+  border-radius: 50%;
+  width: 2rem; 
+  height: 2rem; 
+  /* padding: 0;  */
+}
+
+/* Style the selected node-color pairs */
+#node-pairs, #selected-pairs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#node-pairs > div, #selected-pairs > div {
+  margin-right: 0.1vw;
+  margin-bottom: 0.1vw;
+  font-size: 1.3rem;
+}
+
+
+
+/* For all the heading*/
+h4 {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #474242; /* Adjust color as needed */
+}
+h3 {
+  font-size: 1rem;
+  /* font-weight: bold; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #474242; /* Adjust color as needed */
+}
+
+
+
+
+
+
