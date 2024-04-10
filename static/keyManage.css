@@ -109,6 +109,13 @@ h4{
     width: 2.5vw;
     height: 2.5vh;
 }
+/* Apply red color to the label when the radio button is checked */
+.file-option input[type="radio"]:checked,
+.visualization-option input[type="radio"]:checked {
+    /* border-color: red; */
+    accent-color: #0056b3;
+}
+
 .visualization-options label, .file-option label {
     margin: 0; 
     font-size: 1.1vw;
